@@ -1,4 +1,7 @@
+# mac only
 .DS_Store
+
+# folders
 node_modules
 /dist
 

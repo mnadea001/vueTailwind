@@ -1,11 +1,6 @@
 <template>
   <div class="hello">
-    <h1 class="bg-blue-900 text-white p-4 hover:bg-red-900">{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+    <h1 class="bg-blue-900 text-white p-4 hover:bg-red-900">The Team</h1>
     <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
       <img class="h-10 w-10 rounded-full" :src="person.image" alt="" />
