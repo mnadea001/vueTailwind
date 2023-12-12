@@ -1,4 +1,6 @@
 # tuto
+vue create tuto
+vue add tailwind
 
 ## Project setup
 ```
@@ -22,3 +24,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Icons
+https://vue-hero-icons.netlify.app/
